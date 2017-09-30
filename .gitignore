@@ -1,2 +1,2 @@
 *.slides.html
-ipynb_checkpoints/
+.ipynb_checkpoints
