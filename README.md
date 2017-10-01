@@ -10,7 +10,7 @@ How to run the slide show with the slides in the Jupyter Notebooks:
 pip3 install --user jupyter
 
 # To render the slides
-jupyter nbconvert --to slides High-Performance-Website-Frozen-Flask.ipynb --reveal-prefix=reveal.js
+jupyter nbconvert --to slides High-Performance-Website-Frozen-Flask.ipynb --SlidesExporter.reveal_theme=sky --reveal-prefix=reveal.js
 ```
 After that open this `High-Performance-Website-Frozen-Flask.slides.html` in your browser
 
